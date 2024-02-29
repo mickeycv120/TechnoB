@@ -110,9 +110,7 @@ public class Window extends javax.swing.JFrame {
 
     private void SubirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SubirActionPerformed
         // TODO add your handling code here:
-       SubirEquipos subir = new SubirEquipos();
-       subir.setVisible(true);
-       subir.setLocation(null);
+      
        
     }//GEN-LAST:event_SubirActionPerformed
 

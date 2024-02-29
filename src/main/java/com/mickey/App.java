@@ -14,6 +14,8 @@ public class App
         String url = "jdbc:mysql://localhost:3306/java_curso?serverTimezone=UTC";
         String username = "root"; //Usuario
         String password = "mickeycv"; //Contraseña
+        
+      
 
         try (Connection conn = DriverManager.getConnection(url,username,password);
              Statement  stmt = conn.createStatement();
@@ -28,6 +30,5 @@ public class App
             e.printStackTrace();
 
         }
-
     }
 }
