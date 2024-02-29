@@ -1,5 +1,6 @@
 package com.mickey;
 
+import com.mickey.GUI.Subir;
 import java.sql.*;
 
 /**
@@ -14,8 +15,8 @@ public class App
         String url = "jdbc:mysql://localhost:3306/java_curso?serverTimezone=UTC";
         String username = "root"; //Usuario
         String password = "mickeycv"; //Contraseña
-        
-      
+        Subir s = new Subir();
+      s.setVisible(true);
 
         try (Connection conn = DriverManager.getConnection(url,username,password);
              Statement  stmt = conn.createStatement();
